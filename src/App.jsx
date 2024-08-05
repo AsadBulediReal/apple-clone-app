@@ -1,16 +1,15 @@
 import { useState } from "react";
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import HighLight from "./components/HighLight";
 
 const App = () => {
-  const [count, setCount] = useState(0);
-
   return (
-    <>
-      <div className="text-white">
-        <p className="flex justify-center items-center font-bold text-[200px]">
-          hello world
-        </p>
-      </div>
-    </>
+    <main className="bg-black">
+      <Navbar />
+      <Hero />
+      <HighLight />
+    </main>
   );
 };
 
