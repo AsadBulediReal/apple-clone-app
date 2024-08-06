@@ -31,6 +31,14 @@ const Hero = () => {
 
   useEffect(() => {
     gsap.set("#hero", { opacity: 0, y: 10 });
+    gsap.set("#heroVideo", { opacity: 0, y: 10 });
+
+    gsap.to("#heroVideo", {
+      duration: 1,
+      y: 0,
+      opacity: 1,
+      ease: "power2.inOut",
+    });
 
     gsap.to("#hero", {
       duration: 1,
@@ -64,7 +72,7 @@ const Hero = () => {
         <p id="hero" className="hero-title">
           Iphone 15 pro
         </p>
-        <div className="md:w-10/12 w-9/12">
+        <div id="heroVideo" className="md:w-10/12 w-9/12">
           <video
             className="pointer-events-none"
             key={videoSrc}
