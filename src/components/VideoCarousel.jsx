@@ -150,6 +150,7 @@ const VideoCarousel = () => {
         }));
         break;
       case "dot-click":
+        if (videoId === i && isLastVideo !== true) return;
         // End the previous video
         videoRef.current[videoId].pause();
         videoRef.current[videoId].currentTime =
@@ -160,13 +161,17 @@ const VideoCarousel = () => {
           backgroundColor: "#afafaf",
         });
         // Set the new video to play
-        setVideo({
-          videoId: i,
-          isEnd: false,
-          startPlay: true,
-          isPlaying: true,
-          isLastVideo: false,
-        });
+        setTimeout(() => {
+          setVideo({
+            videoId: i,
+            isEnd: false,
+            startPlay: true,
+            isPlaying: true,
+            isLastVideo: false,
+          });
+          videoRef.current[i].play();
+        }, 100);
+
         break;
       default:
         return video;
@@ -187,6 +192,9 @@ const VideoCarousel = () => {
                   playsInline={true}
                   preload="auto"
                   muted
+                  className={`
+                    ${list.id === 2 && "translate-x-44"}
+                    pointer-events-none`}
                   ref={(el) => (videoRef.current[i] = el)}
                   onEnded={() => {
                     i !== 3
