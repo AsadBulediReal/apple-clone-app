@@ -2,6 +2,7 @@ import { useState } from "react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import HighLight from "./components/HighLight";
+import Model from "./components/Model";
 
 const App = () => {
   return (
@@ -9,6 +10,7 @@ const App = () => {
       <Navbar />
       <Hero />
       <HighLight />
+      <Model />
     </main>
   );
 };
