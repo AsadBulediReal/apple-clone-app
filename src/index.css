@@ -19,6 +19,10 @@ body {
   user-select: none;
 }
 
+#chip {
+  will-change: transform;
+}
+
 /* HTML: <div class="loader"></div> */
 .loader {
   --s: 20px;
