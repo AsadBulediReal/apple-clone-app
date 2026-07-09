@@ -6,7 +6,7 @@
 ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
 
-![Apple Clone App Banner](https://via.placeholder.com/1200x400?text=Apple+iPhone+Clone)
+![Apple Clone App Banner](./placeholder-image.png)
 
 Welcome to the **Apple Clone Web App**! This project is a stunning, high-performance replica of the Apple website, focusing on interactive 3D elements, smooth scroll animations, and premium web design aesthetics.
 
