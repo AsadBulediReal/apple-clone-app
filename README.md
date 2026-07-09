@@ -23,7 +23,7 @@ I built this project to challenge myself with complex front-end animations and 3
 
 | Hero Section | 3D Model Interaction |
 | :---: | :---: |
-| ![Hero](./Hero-Section.gif) | ![Model](./3D-Model.gif) |
+| <img src="./Hero-Section.gif" alt="Hero" width="400" /> | <img src="./3D-Model.gif" alt="Model" width="400" /> |
 
 ## 🚀 Key Features
 
