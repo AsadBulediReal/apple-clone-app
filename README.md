@@ -23,7 +23,7 @@ I built this project to challenge myself with complex front-end animations and 3
 
 | Hero Section | 3D Model Interaction |
 | :---: | :---: |
-| ![Hero](https://via.placeholder.com/400x250?text=Hero+Screenshot) | ![Model](https://via.placeholder.com/400x250?text=3D+Model+Screenshot) |
+| ![Hero](./Hero-Section.gif) | ![Model](./3D-Model.gif) |
 
 ## 🚀 Key Features
 
